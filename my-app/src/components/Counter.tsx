@@ -13,15 +13,15 @@ export const Counter = () => {
             <span>Valor : {counter}</span>
             <div>
 
-            <button className='btn'
+            <button className='ov-btn-slide-top'
                 onClick={() => increment()}
                 > + 1</button>
 
-            <button className='btn2'
+            <button className='ov-btn-slide-top2'
                 onClick={() => increment(2)}
                 > + 2</button>
 
-            <button className='btn3'
+            <button className='ov-btn-slide-top3'
                 onClick={() => setCounter(0)}
                 >Reset</button>
                 </div>
